@@ -33,6 +33,7 @@ const Dashboard = () => {
     async function logoutHandler(){
         await dashboardStore.logout();
         router(paths.LANDING_ROUTE);
+        dashboardStore.setDashboardContentIndex(0);
     }
 
     useEffect(()=>{
