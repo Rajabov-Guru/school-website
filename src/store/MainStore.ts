@@ -125,10 +125,7 @@ class MainStore {
         catch (e:any) {
             console.log(e.response?.data?.message);
         }finally {
-            setTimeout(()=>{
-                this.setLoading(false);
-            },5000);
-            // this.setLoading(false);
+            this.setLoading(false);
         }
 
     }

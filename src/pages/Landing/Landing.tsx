@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext, useEffect, useRef} from 'react';
 import StartSection from "./sections/Start";
 import MainBackground from '../../assets/MainBackground.png';
 import AboutBackGround from '../../assets/section-bg.png';
@@ -17,6 +17,13 @@ import {IFeedback} from "../../types/mainTypes";
 
 const Landing = () => {
     const {mainStore} = useContext(Context);
+    const myRef = useRef();
+
+    const executeScroll = () => {
+        // @ts-ignore
+        myRef.current.scrollIntoView();
+        console.log("scroll")
+    }
 
     useEffect(()=>{
         fetchAll();

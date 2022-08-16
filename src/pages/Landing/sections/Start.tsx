@@ -27,6 +27,12 @@ interface IStartSection extends ISection{
 }
 
 const Start:FC<IStartSection> = (props) => {
+
+    const scroll = () => {
+        const section = document.querySelector( '#feed' );
+        if(section) section.scrollIntoView( );
+    };
+
     return (
         <StartSection {...props}>
             <div>Добро пожаловать!</div>
@@ -36,7 +42,7 @@ const Start:FC<IStartSection> = (props) => {
                 <h3 className={'start_title'}>{props.title}</h3>
             </div>
             <div className={'start_greeting'}>{props.keyword}</div>
-            <Button variant='contained' endIcon={<SendIcon/>}>Записаться</Button>
+            <Button onClick={scroll} variant='contained' endIcon={<SendIcon/>}>Записаться</Button>
         </StartSection>
     );
 };

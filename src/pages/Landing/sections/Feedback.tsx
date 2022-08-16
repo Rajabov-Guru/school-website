@@ -32,7 +32,7 @@ const Feedback:FC<IFeedBackSection> = (props) => {
 
 
     return (
-        <FeedbackSection {...props}>
+        <FeedbackSection id={"feed"} {...props}>
             <Container>
                 <FeedbackForm isLoading={props.isLoading} courses={props.courses} handleSubmit={props.handleSubmit}/>
             </Container>
