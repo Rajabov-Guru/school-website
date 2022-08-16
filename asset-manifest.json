@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/school-website/static/css/main.05e35419.css",
-    "main.js": "/school-website/static/js/main.aa449ab8.js",
+    "main.js": "/school-website/static/js/main.6f1a241c.js",
     "static/media/MainBackground.png": "/school-website/static/media/MainBackground.757f956fb2630878e9ca.png",
     "static/media/board.png": "/school-website/static/media/board.48dcd625d303e95cf341.png",
     "static/media/robo-bg.jpg": "/school-website/static/media/robo-bg.b491d2c7c6aff5505a17.jpg",
     "index.html": "/school-website/index.html",
     "main.05e35419.css.map": "/school-website/static/css/main.05e35419.css.map",
-    "main.aa449ab8.js.map": "/school-website/static/js/main.aa449ab8.js.map"
+    "main.6f1a241c.js.map": "/school-website/static/js/main.6f1a241c.js.map"
   },
   "entrypoints": [
     "static/css/main.05e35419.css",
-    "static/js/main.aa449ab8.js"
+    "static/js/main.6f1a241c.js"
   ]
 }
