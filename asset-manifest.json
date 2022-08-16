@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Rajabov-Guru/school-website/static/css/main.05e35419.css",
+    "main.js": "/Rajabov-Guru/school-website/static/js/main.ce207eaf.js",
+    "static/media/MainBackground.png": "/Rajabov-Guru/school-website/static/media/MainBackground.757f956fb2630878e9ca.png",
+    "static/media/board.png": "/Rajabov-Guru/school-website/static/media/board.48dcd625d303e95cf341.png",
+    "static/media/robo-bg.jpg": "/Rajabov-Guru/school-website/static/media/robo-bg.b491d2c7c6aff5505a17.jpg",
+    "index.html": "/Rajabov-Guru/school-website/index.html",
+    "main.05e35419.css.map": "/Rajabov-Guru/school-website/static/css/main.05e35419.css.map",
+    "main.ce207eaf.js.map": "/Rajabov-Guru/school-website/static/js/main.ce207eaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e35419.css",
+    "static/js/main.ce207eaf.js"
+  ]
+}
