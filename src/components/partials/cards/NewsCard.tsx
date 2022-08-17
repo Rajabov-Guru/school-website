@@ -31,7 +31,7 @@ const NewsCard:FC<INewsCard> = ({forDashboard,newsItem,editHandler,deleteHandler
                         {newsItem.title}
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                        {newsItem.createdAt}
+                        {newsItem.createdAt.split('T')[0]}
                     </Typography>
                     <Typography variant="subtitle1" color="text.secondary" component="div">
                         {newsItem.text}

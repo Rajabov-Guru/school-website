@@ -25,7 +25,7 @@ const FeedCard:FC<IFeedCard> = ({feedback,deleteHandler}) => {
                     Завяка на курс {feedback.courseName}
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    {feedback.createdAt}
+                    {feedback.createdAt? feedback.createdAt.split('T')[0]:''}
                 </Typography>
                 <Typography variant="h6" color="text.secondary" component="div">
                     От: {feedback.email}
