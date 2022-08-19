@@ -22,7 +22,7 @@ const AdvantageCard:FC<IAdvantageCard> = ({forDashboard, advantage,editHandler, 
         <MyCard forDashboard={forDashboard} styles={{ width:'100%'}}>
             <CardMedia
                 component="img"
-                height="140"
+                height="200"
                 image={`${process.env.REACT_APP_URL}/${advantage.image}`}
                 alt="green iguana"
             />

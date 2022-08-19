@@ -2,6 +2,9 @@ import React from 'react';
 import {ISection} from "./Start";
 import styled, {css} from "styled-components";
 import {Avatar, Container, Stack, Typography} from "@mui/material";
+import TeacherPhotoFirst from '../../../assets/teacher1.png';
+import TeacherPhotoSecond from '../../../assets/teacher2.png';
+import TeacherPhotoThird from '../../../assets/teacher3.png';
 
 const TeachersSection = styled.div<ISection>`
   padding: 40px;
@@ -37,17 +40,26 @@ const Teachers = () => {
         <TeachersSection>
             <div className={'about_title'}>Наши преподаватели</div>
             <Container>
-                <Stack spacing={2}>
-                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src="http://robotic/img/teacher2.png" />
-                    <Typography variant={'h6'}>Шевченко А. С.</Typography>
+                <Stack spacing={2} alignItems={'center'}>
+                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src={TeacherPhotoFirst} />
+                    <Stack>
+                        <Typography variant={'h6'} fontWeight={'bold'}>Шевченко А. С.</Typography>
+                        <Typography variant={'h6'}>Кандидат физико- математических наук, доцент</Typography>
+                    </Stack>
                 </Stack>
-                <Stack spacing={2}>
-                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src="http://robotic/img/teacher2.png" />
-                    <Typography variant={'h6'}>Шевченко А. С.</Typography>
+                <Stack spacing={2} alignItems={'center'}>
+                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src={TeacherPhotoSecond} />
+                    <Stack>
+                        <Typography variant={'h6'} fontWeight={'bold'}>Камышникова Н. Н.</Typography>
+                        <Typography variant={'h6'}>Кандидат химических наук, психолог</Typography>
+                    </Stack>
                 </Stack>
-                <Stack spacing={2}>
-                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src="http://robotic/img/teacher2.png" />
-                    <Typography variant={'h6'}>Шевченко А. С.</Typography>
+                <Stack spacing={2} alignItems={'center'}>
+                    <Avatar sx={{ width: 200, height: 200 }} alt="Remy Sharp" src={TeacherPhotoThird} />
+                    <Stack>
+                        <Typography variant={'h6'} fontWeight={'bold'}>Раджабов А. И.</Typography>
+                        <Typography variant={'h6'}>Преподаватель по робототехнике</Typography>
+                    </Stack>
                 </Stack>
             </Container>
         </TeachersSection>

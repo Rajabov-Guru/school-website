@@ -37,7 +37,7 @@ const CourseCard:FC<ICourseCard> = ({forDashboard,course, editHandler, deleteHan
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="240"
+                    height="300"
                     image={`${process.env.REACT_APP_URL}/${course.image}`}
                     alt="green iguana"
                 />
