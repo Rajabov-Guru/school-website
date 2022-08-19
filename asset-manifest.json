@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/school-website/static/css/main.05e35419.css",
-    "main.js": "/school-website/static/js/main.91a4fcb4.js",
+    "main.js": "/school-website/static/js/main.81c352bc.js",
     "static/media/MainBackground.png": "/school-website/static/media/MainBackground.757f956fb2630878e9ca.png",
     "static/media/board.png": "/school-website/static/media/board.48dcd625d303e95cf341.png",
+    "static/media/teacher2.png": "/school-website/static/media/teacher2.8f56871807a0309ec197.png",
+    "static/media/teacher1.png": "/school-website/static/media/teacher1.caf90c2c54e20755c262.png",
+    "static/media/teacher3.png": "/school-website/static/media/teacher3.22aee758cff5791731ad.png",
     "static/media/robo-bg.jpg": "/school-website/static/media/robo-bg.b491d2c7c6aff5505a17.jpg",
     "index.html": "/school-website/index.html",
     "main.05e35419.css.map": "/school-website/static/css/main.05e35419.css.map",
-    "main.91a4fcb4.js.map": "/school-website/static/js/main.91a4fcb4.js.map"
+    "main.81c352bc.js.map": "/school-website/static/js/main.81c352bc.js.map"
   },
   "entrypoints": [
     "static/css/main.05e35419.css",
-    "static/js/main.91a4fcb4.js"
+    "static/js/main.81c352bc.js"
   ]
 }
