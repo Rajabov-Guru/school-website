@@ -62,6 +62,20 @@ const FeedbackForm:FC<IFeedForm> = ({courses,handleSubmit, isLoading}) => {
                     variant="filled"
                     value={email}
                     onChange={(e)=>setEmail(e.target.value)}/>
+                <TextField
+                    error={error}
+                    disabled={isLoading}
+                    sx={{backgroundColor:'white', borderRadius:'7px'}}
+                    id="outlined-basic"
+                    label="ФИО"
+                    variant="filled"/>
+                <TextField
+                    error={error}
+                    disabled={isLoading}
+                    sx={{backgroundColor:'white', borderRadius:'7px'}}
+                    id="outlined-basic"
+                    label="Телефон"
+                    variant="filled"/>
 
             </Stack>
             <Button

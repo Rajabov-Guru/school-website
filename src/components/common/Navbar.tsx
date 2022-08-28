@@ -16,6 +16,8 @@ import {paths} from "../../routing/routes";
 
 
 const pages = [
+    {name:"О школе",path:'/'},
+    {name:"Курсы",path:'/'},
     {name:"Новости",path:'/news'},
     {name:"Статьи",path:'/articles'},
     {name:"Контакты",path:"/contacts"},
